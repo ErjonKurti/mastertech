@@ -1,0 +1,10 @@
+{
+    "title": "PHOENIX",
+    "subtitle": "DEIN TOR ZUR ZUKUNFT",
+    "navbar": {
+        "home": "Startseite",
+        "shop": "Shop",
+        "cart": "Warenkorb",
+        "profile": "Profil"
+    }
+}

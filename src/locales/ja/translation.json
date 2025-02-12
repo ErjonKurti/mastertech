@@ -1,0 +1,10 @@
+{
+    "title": "PHOENIX",
+    "subtitle": "未来への扉",
+    "navbar": {
+        "home": "ホーム",
+        "shop": "ショップ",
+        "cart": "カート",
+        "profile": "プロフィール"
+    }
+}

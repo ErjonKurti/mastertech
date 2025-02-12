@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+.ceo-signature-container {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  max-width: 600px;
+  margin:  70px auto 70px;
+}
+
+.highlight-text {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #00001a, #001eff, #00106a, #00094d, #000000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  color: #111;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.signature-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ceo-info {
+  flex-grow: 1;
+}
+
+.ceo-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.ceo-title {
+  font-size: 14px;
+  color: #777;
+}
+
+.signature {
+  width: 160px;
+  height: auto;
+}

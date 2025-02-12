@@ -1,0 +1,10 @@
+{
+    "title": "PHOENIX",
+    "subtitle": "TU PUERTA AL FUTURO",
+    "navbar": {
+        "home": "Inicio",
+        "shop": "Tienda",
+        "cart": "Carrito",
+        "profile": "Perfil"
+    }
+}

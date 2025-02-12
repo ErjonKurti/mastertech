@@ -1,0 +1,154 @@
+
+.top-navbar {
+    background-color: #040404;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 0.9rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: top 0.3s ease;
+}
+
+.top-navbar-left, .top-navbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+.top-navbar-left span, .top-navbar-right a {
+    display: flex;
+    align-items: center;
+}
+
+.top-navbar-left span {
+    font-size: 14px;
+}
+
+.top-navbar-right a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-navbar-right a:hover {
+    color: #1123ac;
+}
+
+.navbar {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(8, 8, 8), rgba(0, 0, 0, 0.881));
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.363);
+    padding: 10px 20px;
+    transition: top 0.3s ease, background-color 0.3s ease;
+    z-index: 998;
+}
+
+.navbar.scrolled {
+    top: 0; 
+    background: linear-gradient(135deg, rgb(225, 225, 225), rgba(255, 255, 255, 0.881));
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.864);
+}
+
+.navbar.scrolled .navbar-menu li {
+    color: black;
+}
+
+.navbar.scrolled .navbar-menu li:hover {
+    color: #1123ac;
+}
+
+
+
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-menu li {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu li:hover {
+    color: #1123ac;
+    font-weight: 700;
+}
+
+.language-switcher {
+    position: absolute;
+    top: 8px;
+    right: 32px;
+}
+
+.profile-photo {
+    margin-left: 20px;
+}
+
+.profile-photo-img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.top-navbar-right a {
+    color: #fff;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.top-navbar-right a:hover {
+    color: #1123ac;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .mobile-navbar {
+        display: flex;
+    }
+
+    .navbar-menu li {
+        display: none;
+    }
+
+    .navbar {
+        background-color: rgba(12, 12, 12, 0.966);
+        padding: 14px 26px;
+    }
+
+    .navbar-logo img {
+        height: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .top-navbar {
+        display: none;
+    }
+    .navbar{
+        top: 0;
+    }
+    .language-switcher{
+        top: 10px;
+    }
+}

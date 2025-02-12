@@ -1,0 +1,154 @@
+/* Language switcher container */
+.language-switcher {
+    top: 21.7px;
+    right: 8.7vw;
+    display: inline-block;
+    border: 0; /* Remove any border */
+    z-index: 10000;
+    position: fixed;
+}
+
+.language-switcher:hover {
+    background-color: transparent;
+}
+
+.navbar.scrolled .language-switcher {
+    filter: invert(1);
+}
+
+.dropdown-toggle {
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition: background 0.3s;
+    font-family: inter;
+}
+
+.dropdown-toggle:hover {
+    background: transparent;
+}
+
+
+/* Styling for the dropdown toggle button and select element */
+.language-switcher select,
+.dropdown-toggle {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 0; /* Ensure border is transparent */
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* For other browsers */
+}
+
+/* Styling for flag icons */
+.flag-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+/* Add a custom dropdown arrow */
+.language-switcher::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    min-width: max-content;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Media queries for responsive design */
+
+/* Large screens (Desktops) */
+@media (min-width: 1200px) {
+    .language-switcher {
+        top: 20px;
+        right: 8.65vw;
+    }
+
+    .language-switcher select,
+    .dropdown-toggle {
+        font-size: 16px;
+    }
+}
+
+
+/* Medium screens (Tablets and smaller desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .language-switcher {
+        top: 20px;
+        right: 12vw;
+    }
+
+}
+
+/* Small screens (Tablets and large phones) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .language-switcher {
+        top: 20px;
+        right: 15vw;
+    }
+}
+
+/* Extra small screens (Phones) */
+@media (max-width: 767px) {
+    .language-switcher {
+        top: 20px;
+        right: 24vw;
+        left: auto;
+    }
+
+}
+
+/* Extra-extra small screens (Very small phones) */
+@media (max-width: 480px) {
+    .language-switcher {
+        top: 20px;
+        right: 27vw;
+        left: auto;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .language-switcher {
+        top: 20px;
+        right: 29vw;
+        left: auto;
+    }
+}
+

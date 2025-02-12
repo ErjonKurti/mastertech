@@ -1,0 +1,10 @@
+{
+    "title": "PHOENIX",
+    "subtitle": "VOTRE PASSERELLE VERS L'AVENIR",
+    "navbar": {
+        "home": "Accueil",
+        "shop": "Boutique",
+        "cart": "Panier",
+        "profile": "Profil"
+    }
+}

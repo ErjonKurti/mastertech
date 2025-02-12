@@ -1,0 +1,10 @@
+{
+    "title": "PHOENIX",
+    "subtitle": "YOUR GATEWAY TO THE FUTURE",
+    "navbar": {
+        "home": "Home",
+        "shop": "Shop",
+        "cart": "Cart",
+        "profile": "Profile"
+    }
+}
