@@ -13,21 +13,6 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="contact-form-section">
-        <h2 className="contact-title">Feel Free To Ask Us Anything For IT Servicing</h2>
-        <p className="contact-description">
-          When you bring your vehicle to Ducatibox Car Mechanic Center, you can rest easy knowing that your vehicle is in professional hands.
-        </p>
-        <form className="contact-form">
-          <div className="form-group">
-            <input type="text" placeholder="Full Name*" required />
-            <input type="email" placeholder="E-mail Address*" required />
-          </div>
-          <input type="text" placeholder="Subject" />
-          <textarea placeholder="Text"></textarea>
-          <button type="submit">SEND MAIL</button>
-        </form>
-      </div>
     </div>
   );
 };

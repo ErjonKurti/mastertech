@@ -39,7 +39,7 @@ const Header = () => {
             />
             <div className="header-content">
                 <h1 className='header-h1'>MASTERTECH</h1>
-                <p className='header-p'>Electrical, Camera, Alarms, Access Control, Audio, IT</p>
+                <p className='header-p'>Electrical, Smartphones, Camera, Alarms, Access Control, Audio, IT</p>
             </div>
         </header>
     );

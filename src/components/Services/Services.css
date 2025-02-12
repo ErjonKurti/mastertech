@@ -2,7 +2,6 @@
 
 .section1 {
     padding: 80px 25px;
-    background-color: #f5f3f3;
     text-align: center;
     height: 100vh;
 }
@@ -184,7 +183,6 @@
 @media (min-width: 1180px) {
     .section1 {
         padding: 80px 25px;
-        background-color: #f5f4f4fa;
         text-align: center;
     }
 }

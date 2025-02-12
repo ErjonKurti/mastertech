@@ -15,10 +15,11 @@ const Home = () => {
     <div>
         <Navbar/>
         <Header/>
+        
         <Services/>
-        <Consultation />
-        <CeoInfo />
         <Brands />
+        <CeoInfo />
+        <Consultation />
         <Contact />
         <Footer/>
   
