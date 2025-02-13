@@ -1,140 +1,140 @@
-
 .footer {
-    background: #0a0a0a;
-    color: #fff;
-    padding: 50px 10%;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-  
-  .footer-brand h2 {
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .footer-brand .logo-K {
-    color: white;
-  }
-  
-  .footer-brand h2 span {
-    color: #4169E1;
-  }
-  
-  .footer-brand p {
-    font-size: 14px;
-    color: #c7c7c7;
-    margin-top: 8px;
-  }
-  
-  .social-icons {
-    margin-top: 15px;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    margin-right: 10px;
-    color: white;
-    font-size: 20px;
-    background: #4169E1;
-    padding: 10px;
-    border-radius: 6px;
-    transition: 0.3s ease-in-out;
-  }
-  
-  .social-icons a:hover {
-    background: #1a1a1a;
-  }
-  
-  .footer-newsletter h3 {
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  .footer-newsletter h3 span {
-    color: #4169E1;
-  }
-  
-  .subscribe-box {
-    margin-top: 10px;
-    display: flex;
-    border: 1px solid #555;
-    border-radius: 6px;
-    overflow: hidden;
-  }
-  
-  .subscribe-box input {
-    flex: 1;
-    padding: 12px;
-    background: #111;
-    border: none;
-    color: white;
-  }
-  
-  .subscribe-box input::placeholder {
-    color: #888;
-  }
-  
-  .subscribe-box button {
-    background: #4169E1;
-    border: none;
-    padding: 12px 20px;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .subscribe-box button:hover {
-    background: #1a1a1a;
-  }
-  
-  .footer-contact {
-    max-width: 300px;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 15px;
-  }
-  
-  .contact-icon {
-    background: #4169E1;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-  }
-  
-  .contact-item h4 {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .contact-item p {
-    font-size: 14px;
-    color: #c7c7c7;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #222;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom p {
-    font-size: 14px;
-    color: #c7c7c7;
-  }
-  
-  .footer-bottom span {
-    color: #4169E1;
-    font-weight: bold;
-  }
-  
+  background: linear-gradient(135deg, rgb(225, 225, 225), rgba(255, 255, 255, 0.881));
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.864);
+  color: #000;
+  padding: 50px 10%;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.footer-brand .logo-K {
+  color: #000;
+}
+
+.footer-brand h2 span {
+  color: #4169E1;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #000;
+  margin-top: 8px;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  background: #4169E1;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background: #1a1a1a;
+}
+
+.footer-newsletter h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-newsletter h3 span {
+  color: #4169E1;
+}
+
+.subscribe-box {
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid #55555551;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.subscribe-box input {
+  flex: 1;
+  padding: 12px;
+  background: #f3f3f3;
+  border: none;
+  color: #000000ee;
+}
+
+.subscribe-box input::placeholder {
+  color: #888;
+}
+
+.subscribe-box button {
+  background: #4169E1;
+  border: none;
+  padding: 12px 20px;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background: #1a1a1a;
+}
+
+.footer-contact {
+  max-width: 300px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  background: #4169E1;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.contact-item h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-item p {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #222;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #000;
+}
+
+.footer-bottom span {
+  color: #4169E1;
+  font-weight: bold;
+}

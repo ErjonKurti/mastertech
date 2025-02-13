@@ -31,15 +31,15 @@
 
 .header-h1 {
     margin: 0;
-    font-family: Anurati;
-    font-size: 80px;
-    font-weight: 500;
+    font-family: Inter;
+    font-size: 98px;
+    font-weight: 600;
     transform: scaleY(1.05);
     letter-spacing: 8px;
 }
 
 .header-p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: inter;
     font-weight: 600;
     letter-spacing: 1px;
