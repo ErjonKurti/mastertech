@@ -1,0 +1,33 @@
+.moto-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .moto-overlay {
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .moto-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.4;
+    font-family: inter;
+  }
+  
+  .company-name {
+    font-size: 18px;
+    color: #ddd;
+    font-style: italic;
+    margin-top: 8px;
+  }
+  

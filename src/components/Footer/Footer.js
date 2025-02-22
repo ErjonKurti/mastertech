@@ -3,14 +3,17 @@ import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
 import { faXTwitter, faFacebookF, faInstagram, faPinterest, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-brand">
           <h2><span className="logo-m">MASTER</span>TECH</h2>
-          <p>These Terms will be applied fully and affect your use of this Website.</p>
+          <p>{t("footerTerms", { defaultValue: "These Terms will be applied fully and affect your use of this Website." })}</p>
           <div className="social-icons">
             <a href="#"><FontAwesomeIcon icon={faXTwitter} /></a>
             <a href="https://www.facebook.com/MasterTech.al/"><FontAwesomeIcon icon={faFacebookF} /></a>
@@ -20,11 +23,11 @@ const Footer = () => {
         </div>
 
         <div className="footer-newsletter">
-          <h3>Apply for Our Services <span>Today!</span></h3>
+          <h3>{t("applyForServices", { defaultValue: "Apply for Our Services" })} <span>{t("today", { defaultValue: "Today!" })}</span></h3>
           <div className="subscribe-box">
-            <input type="email" placeholder="Enter Your Email" />
+            <input type="email" placeholder={t("enterYourEmail", { defaultValue: "Enter Your Email" })} />
             <a href="mailto:info@mastertech.al?subject=Application for Services&body=Hello, I would like to apply for your services.">
-              <button>Apply</button>
+              <button>{t("apply", { defaultValue: "Apply" })}</button>
             </a>
           </div>
         </div>
@@ -33,31 +36,27 @@ const Footer = () => {
           <div className="contact-item">
             <FontAwesomeIcon icon={faPhone} className="contact-icon" />
             <div>
-              <h4>Call Us</h4>
-              <p>Feel Free To Call Us (355) 68 555 5840</p>
+              <h4>{t("callUs", { defaultValue: "Call Us" })}</h4>
+              <p>{t("callUsText", { defaultValue: "Feel Free To Call Us (355) 68 555 5840" })}</p>
             </div>
           </div>
 
           <div className="contact-item">
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
             <div>
-              <h4>Email</h4>
-              <p>Contact Us At: <br/> info@mastertech.al</p>
+              <h4>{t("email", { defaultValue: "Email" })}</h4>
+              <p>{t("emailText", { defaultValue: "Contact Us At: info@mastertech.al" })}</p>
             </div>
           </div>
 
           <div className="contact-item">
             <FontAwesomeIcon icon={faHome} className="contact-icon" />
             <div>
-              <h4>Address</h4>
-              <p>Rr. Elbasanit, Tirana, <br/> Albania</p>
+              <h4>{t("address", { defaultValue: "Address" })}</h4>
+              <p>{t("addressText", { defaultValue: "Rr. Elbasanit, Tirana, Albania" })}</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="footer-bottom">
-        <p> <span>MASTERTECH</span> All rights reserved.</p>
       </div>
     </footer>
   );
