@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 import './Navbar.css';
 
 const Navbar = () => {
-  const { t } = useTranslation();  // Using i18n translation hook
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [topNavbarVisible, setTopNavbarVisible] = useState(true);
   const [activeSection, setActiveSection] = useState('');

@@ -8,12 +8,10 @@ const CeoInfo = () => {
 
   return (
     <div className="ceo-container">
-      {/* Profile Photo Container */}
       <div className="pfp-container">
         <img src={assets.profile} className="pfp-img" alt={t("ceoProfileAlt", { defaultValue: "CEO Profile" })} />
       </div>
 
-      {/* CEO Signature Section */}
       <div className="ceo-signature-container">
         <p className="highlight-text">{t("feelValuedAndRewarded", { defaultValue: "FEEL VALUED & REWARDED" })}</p>
         <h2 className="title">{t("companyName", { defaultValue: "Master Tech" })}</h2>
@@ -28,7 +26,6 @@ const CeoInfo = () => {
             <p className="ceo-name">{t("ceoName", { defaultValue: "Nikolli Albert" })}</p>
             <p className="ceo-title">{t("ceoTitle", { defaultValue: "CEO & Founder" })}</p>
           </div>
-          <img src="/signature.png" alt={t("ceoSignatureAlt", { defaultValue: "CEO Signature" })} className="signature" />
         </div>
       </div>
     </div>

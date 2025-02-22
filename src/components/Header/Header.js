@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
     const videoRef = useRef(null);
-    const { t } = useTranslation(); // Hook for translations
+    const { t } = useTranslation(); 
 
     useEffect(() => {
         const video = videoRef.current;

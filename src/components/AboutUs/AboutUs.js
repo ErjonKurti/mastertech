@@ -5,7 +5,7 @@ import "./AboutUs.css";
 import Contact from "../Contact/Contact";
 
 const AboutUs = () => {
-  const { t } = useTranslation(); // Get the translation function
+  const { t } = useTranslation();
 
   return (
     <div className="about-section">
