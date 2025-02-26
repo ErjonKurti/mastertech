@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import './i18n';
-import * as serviceWorkerRegistration from './service-worker';
 
 
 
@@ -18,5 +17,3 @@ root.render(
     </BrowserRouter>
   </React.StrictMode>
 );
-
-serviceWorkerRegistration.register();
