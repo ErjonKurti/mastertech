@@ -23,7 +23,11 @@ const LanguageSwitcher = () => {
     const languages = {
         en: { label: 'EN', flag: assets.en, alt: 'UK Flag' },
         sq: { label: 'AL', flag: assets.al, alt: 'Albanian Flag' },
-        de: { label: 'DE', flag: assets.de, alt: 'Germany Flag' }
+        de: { label: 'DE', flag: assets.de, alt: 'Germany Flag' },
+        it: { label: 'IT', flag: assets.it, alt: 'Italy Flag' },
+        es: { label: 'ES', flag: assets.es, alt: 'Spain Flag' },
+        fr: { label: 'FR', flag: assets.fr, alt: 'France Flag' },
+        ja: { label: 'JA', flag: assets.ja, alt: 'Japan Flag' }
     };
 
     const currentLanguage = languages[i18n.language] || languages.en; 

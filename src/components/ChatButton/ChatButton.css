@@ -1,0 +1,59 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@keyframes wave {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+    }
+    50% {
+        box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom, rgba(233, 232, 232, 0.95), rgba(215, 215, 215, 0.95));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(12px);
+    cursor: pointer;
+    z-index: 1000;
+    animation: pulse 2.5s infinite ease-in-out, wave 2.5s infinite ease-out;
+}
+
+.chat-button:hover {
+    background: linear-gradient(to bottom, rgba(227, 227, 227, 0.968), rgb(216, 216, 216));
+    transform: scale(1.1);
+}
+
+.chat-icon {
+    font-size: 28px;
+    color: #1c1c9cd3; 
+    transition: color 0.3s ease-in-out;
+}
+
+.chat-button:hover .chat-icon {
+    color: #0b0b71ee; 
+}

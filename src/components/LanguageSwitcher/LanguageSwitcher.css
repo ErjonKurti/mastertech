@@ -123,6 +123,13 @@
 
 }
 
+
+@media (max-width: 670px) {
+    .dropdown-toggle {
+        color: black;
+    }
+}
+
 @media (max-width: 480px) {
     .language-switcher {
         top: 20px;

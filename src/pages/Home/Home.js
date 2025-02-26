@@ -14,7 +14,7 @@ import Moto from '../../components/Moto/Moto';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <div id="home">
         <Header />
@@ -41,7 +41,7 @@ const Home = () => {
         <AboutUs />
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

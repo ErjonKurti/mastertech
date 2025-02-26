@@ -1,0 +1,81 @@
+{
+    "aboutUs": {
+      "title": "Sobre Nosotros",
+      "description": {
+        "part1": "En",
+        "part2": "estamos comprometidos a ofrecer soluciones tecnológicas innovadoras que potencien a las empresas. Con experiencia en infraestructura de TI, seguridad y automatización, brindamos soluciones innovadoras y confiables adaptadas a las necesidades de nuestros clientes."
+      },
+      "companyName": "MasterTech",
+      "mission": {
+        "heading": "Nuestra Misión",
+        "text": "Nuestra misión es mejorar las empresas con soluciones tecnológicas de alta calidad. Nos esforzamos por ofrecer una integración fluida de TI, mejorar la seguridad y optimizar las operaciones comerciales a través de tecnologías innovadoras y preparadas para el futuro."
+      },
+      "vision": {
+        "heading": "Nuestra Visión",
+        "text": "Imaginamos un mundo donde las empresas de todos los tamaños tengan acceso a soluciones tecnológicas inteligentes, escalables y seguras. Nuestro objetivo es ser un proveedor líder de transformaciones tecnológicas que moldeen el futuro."
+      },
+      "whoWeAre": {
+        "heading": "Quiénes Somos",
+        "text": {
+          "part1": "Fundada en",
+          "part2": "MasterTech ha estado a la vanguardia en la provisión de soluciones de TI y seguridad. Nuestro equipo de expertos se especializa en redes, computación en la nube, automatización y seguridad de sistemas."
+        }
+      },
+      "foundedYear": "[Tu Año]",
+      "values": {
+        "heading": "Nuestros Valores",
+        "text": "La integridad, la innovación y la satisfacción del cliente son los pilares de MasterTech. Priorizamos las prácticas comerciales éticas, la mejora continua y aseguramos que cada cliente reciba las mejores soluciones tecnológicas posibles."
+      }
+    },
+    "brandWeWorkWith": "Marcas con las que Trabajamos",
+    "ceoProfileAlt": "Perfil del CEO",
+    "feelValuedAndRewarded": "SIÉNTETE VALORADO Y RECOMPENSADO",
+    "companyName": "MasterTech",
+    "ceoDescription": "En MasterTech, nos dedicamos a proporcionar soluciones de alta calidad en sistemas eléctricos, cámaras de vigilancia, alarmas de seguridad, control de acceso, soluciones de audio y servicios de TI. Con un fuerte enfoque en la innovación, la fiabilidad y la precisión, garantizamos que cada proyecto cumpla con los más altos estándares de eficiencia y seguridad.",
+    "ceoName": "Nikolli Albert",
+    "ceoTitle": "CEO y Fundador",
+    "ceoSignatureAlt": "Firma del CEO",
+    "consultationText": "ESTAMOS AQUÍ PARA RESPONDER A TUS PREGUNTAS 24/7",
+    "needConsultation": "¿Necesitas una Consulta?",
+    "contactNumber": "+355 68 555 5840",
+    "footerTerms": "Estos Términos se aplicarán en su totalidad y afectarán tu uso de este Sitio Web.",
+    "applyForServices": "Solicita Nuestros Servicios",
+    "today": "¡Hoy!",
+    "enterYourEmail": "Introduce tu Correo Electrónico",
+    "apply": "Solicitar",
+    "callUs": "Llámanos",
+    "callUsText": "No dudes en llamarnos al (355) 68 555 5840",
+    "email": "Correo Electrónico",
+    "emailText": "Contáctanos en: info@mastertech.al",
+    "address": "Dirección",
+    "addressText": "Rr. Elbasanit, Tirana, Albania",
+    "headerTitle": "MASTERTECH",
+    "headerSubtitle": "Eléctrico, Smartphones, Cámaras, Alarmas, Control de Acceso, Audio, TI",
+    "motoText": "Innovando con Tecnología, Potenciando Negocios y Construyendo un Futuro más Inteligente.",
+    "companyName": "- MasterTech",
+    "email": "Correo Electrónico: info@mastertech.al",
+    "working_hours": "9:00 AM - 5:00 PM",
+    "location": "Ubicación: Rr. Elbasanit, Tirana, Albania",
+    "home": "Inicio",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about_us": "Sobre Nosotros",
+    "projects_title": "Proyectos",
+    "projects_description": "En MasterTech, nos especializamos en ofrecer soluciones tecnológicas de primer nivel adaptadas a empresas y negocios. Desde infraestructura de TI hasta automatización inteligente y sistemas de seguridad, nuestros proyectos están diseñados para mejorar la eficiencia, la seguridad y la innovación. A continuación, se presentan algunos de los principales proyectos que hemos completado con éxito.",
+    "category_IT Solutions": "Soluciones de TI",
+    "category_Security Systems": "Sistemas de Seguridad",
+    "category_HVAC": "HVAC",
+    "category_Automation": "Automatización",
+    "category_IT Infrastructure": "Infraestructura de TI",
+    "category_Networking": "Redes",
+    "category_Cloud Solutions": "Soluciones en la Nube",
+    "category_E-Commerce": "Comercio Electrónico",
+    "servicesTitle": "Nuestros Servicios",
+    "servicesDescription": "Ofrecemos instalación y mantenimiento profesional para seguridad, control de acceso, automatización del hogar y soluciones de TI.",
+    "securitySystems": "Sistemas de Seguridad",
+    "securityDescription": "Instalación profesional de cámaras de vigilancia y sistemas de alarmas para una mayor seguridad.",
+    "accessControlSmartHome": "Control de Acceso y Hogares Inteligentes",
+    "accessControlDescription": "Sistemas avanzados de control de acceso y automatización del hogar para mayor comodidad y seguridad.",
+    "itSolutions": "Soluciones Eléctricas y de TI",
+    "itDescription": "Instalaciones eléctricas confiables y soluciones de redes de TI adaptadas a tus necesidades."
+}

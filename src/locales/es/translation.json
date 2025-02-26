@@ -1,0 +1,81 @@
+{
+    "aboutUs": {
+      "title": "À Propos de Nous",
+      "description": {
+        "part1": "Chez",
+        "part2": "nous nous engageons à fournir des solutions technologiques innovantes qui renforcent les entreprises. Avec une expertise en infrastructure informatique, sécurité et automatisation, nous offrons des solutions fiables et adaptées aux besoins de nos clients."
+      },
+      "companyName": "MasterTech",
+      "mission": {
+        "heading": "Notre Mission",
+        "text": "Notre mission est d'améliorer les entreprises grâce à des solutions technologiques de haute qualité. Nous nous efforçons d'assurer une intégration fluide des technologies, d'améliorer la sécurité et d'optimiser les opérations commerciales avec des innovations adaptées à l'avenir."
+      },
+      "vision": {
+        "heading": "Notre Vision",
+        "text": "Nous imaginons un monde où les entreprises de toutes tailles ont accès à des solutions technologiques intelligentes, évolutives et sécurisées. Notre objectif est de devenir un acteur clé de la transformation numérique pour façonner l’avenir."
+      },
+      "whoWeAre": {
+        "heading": "Qui Nous Sommes",
+        "text": {
+          "part1": "Fondée en",
+          "part2": "MasterTech est à la pointe des solutions en informatique et en sécurité. Notre équipe d'experts est spécialisée en réseaux, cloud computing, automatisation et cybersécurité."
+        }
+      },
+      "foundedYear": "[Votre Année]",
+      "values": {
+        "heading": "Nos Valeurs",
+        "text": "L'intégrité, l'innovation et la satisfaction du client sont les piliers de MasterTech. Nous privilégions des pratiques commerciales éthiques, l'amélioration continue et nous nous assurons que chaque client bénéficie des meilleures solutions technologiques possibles."
+      }
+    },
+    "brandWeWorkWith": "Marques avec lesquelles nous travaillons",
+    "ceoProfileAlt": "Profil du PDG",
+    "feelValuedAndRewarded": "SENTEZ-VOUS VALORISÉ ET RÉCOMPENSÉ",
+    "companyName": "MasterTech",
+    "ceoDescription": "Chez MasterTech, nous nous engageons à fournir des solutions de haute qualité en électricité, vidéosurveillance, alarmes de sécurité, contrôle d’accès, solutions audio et services informatiques. Avec un fort accent sur l'innovation, la fiabilité et la précision, nous garantissons que chaque projet respecte les plus hauts standards d'efficacité et de sécurité.",
+    "ceoName": "Nikolli Albert",
+    "ceoTitle": "PDG et Fondateur",
+    "ceoSignatureAlt": "Signature du PDG",
+    "consultationText": "NOUS SOMMES LÀ POUR RÉPONDRE À VOS QUESTIONS 24/7",
+    "needConsultation": "Besoin d’une Consultation ?",
+    "contactNumber": "+355 68 555 5840",
+    "footerTerms": "Ces Conditions s'appliqueront intégralement et affecteront votre utilisation de ce site Web.",
+    "applyForServices": "Demandez Nos Services",
+    "today": "Aujourd’hui !",
+    "enterYourEmail": "Entrez votre adresse e-mail",
+    "apply": "Postuler",
+    "callUs": "Appelez-nous",
+    "callUsText": "N'hésitez pas à nous appeler au (355) 68 555 5840",
+    "email": "E-mail",
+    "emailText": "Contactez-nous à : info@mastertech.al",
+    "address": "Adresse",
+    "addressText": "Rr. Elbasanit, Tirana, Albanie",
+    "headerTitle": "MASTERTECH",
+    "headerSubtitle": "Électricité, Smartphones, Caméras, Alarmes, Contrôle d’Accès, Audio, Informatique",
+    "motoText": "Innover avec la Technologie, Renforcer les Entreprises et Construire un Avenir plus Intelligent.",
+    "companyName": "- MasterTech",
+    "email": "E-mail : info@mastertech.al",
+    "working_hours": "9:00 AM - 5:00 PM",
+    "location": "Emplacement : Rr. Elbasanit, Tirana, Albanie",
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about_us": "À Propos de Nous",
+    "projects_title": "Projets",
+    "projects_description": "Chez MasterTech, nous sommes spécialisés dans la fourniture de solutions technologiques de pointe adaptées aux entreprises. De l’infrastructure informatique à l’automatisation intelligente et aux systèmes de sécurité, nos projets sont conçus pour améliorer l’efficacité, la sécurité et l’innovation. Voici quelques-uns de nos projets les plus réussis.",
+    "category_IT Solutions": "Solutions Informatiques",
+    "category_Security Systems": "Systèmes de Sécurité",
+    "category_HVAC": "HVAC",
+    "category_Automation": "Automatisation",
+    "category_IT Infrastructure": "Infrastructure Informatique",
+    "category_Networking": "Réseaux",
+    "category_Cloud Solutions": "Solutions Cloud",
+    "category_E-Commerce": "E-Commerce",
+    "servicesTitle": "Nos Services",
+    "servicesDescription": "Nous proposons l'installation et la maintenance professionnelles pour la sécurité, le contrôle d’accès, l’automatisation de la maison et les solutions informatiques.",
+    "securitySystems": "Systèmes de Sécurité",
+    "securityDescription": "Installation professionnelle de caméras de surveillance et de systèmes d’alarme pour une sécurité optimale.",
+    "accessControlSmartHome": "Contrôle d’Accès et Maisons Intelligentes",
+    "accessControlDescription": "Systèmes avancés de contrôle d’accès et d’automatisation pour plus de confort et de sécurité.",
+    "itSolutions": "Solutions Électriques et Informatiques",
+    "itDescription": "Installations électriques fiables et solutions de réseaux informatiques adaptées à vos besoins."
+}
