@@ -4,11 +4,19 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 import './i18n';
+import * as serviceWorkerRegistration from './service-worker';
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter>
       <App />
-  </BrowserRouter>,
+    </BrowserRouter>
+  </React.StrictMode>
 );
 
+serviceWorkerRegistration.register();
