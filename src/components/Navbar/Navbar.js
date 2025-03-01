@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { FaHome, FaShoppingCart, FaUser, FaEnvelope, FaSignOutAlt, FaSearch, FaMapMarkerAlt, FaFacebook, FaInstagram, FaWhatsapp, FaTiktok, FaTwitter, FaClock } from 'react-icons/fa';
+import { Link, useLocation } from 'react-router-dom';
+import { FaEnvelope, FaClock, FaMapMarkerAlt, FaFacebook, FaInstagram, FaWhatsapp, FaTiktok, FaTwitter } from 'react-icons/fa';
 import { assets } from '../../assets/assets';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 import './Navbar.css';
+import MenuToggle from '../MenuToggle/MenuToggle';
 
 const Navbar = () => {
   const { t } = useTranslation();
+  const location = useLocation(); // Detects page changes
   const [scrolled, setScrolled] = useState(false);
   const [topNavbarVisible, setTopNavbarVisible] = useState(true);
-  const [activeSection, setActiveSection] = useState('');
+
+  useEffect(() => {
+    // Scroll to top when changing pages
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location]); // Runs every time the route changes
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -25,22 +31,14 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  const handleScrollToTop = (section) => {
-    setActiveSection(section);
-    window.scrollTo({
-      top: document.getElementById(section).offsetTop,
-      behavior: 'smooth',
-    });
-  };
-
   return (
     <>
+      {/* Top Navbar */}
       {topNavbarVisible && (
         <nav className="top-navbar">
           <div className="top-navbar-left">
@@ -58,51 +56,34 @@ const Navbar = () => {
         </nav>
       )}
 
+      {/* Main Navbar */}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+        <div className='menu-toggle-div'> 
+          <MenuToggle />
+        </div>
         <div className="navbar-logo">
           <img src={assets.logo} alt="MasterTech Logo" />
         </div>
+        
         <ul className="navbar-menu">
           <li>
-            <Link
-              to="#home"
-              onClick={() => handleScrollToTop('home')}
-              className={activeSection === 'home' ? 'active' : ''}
-            >
-              {t('home', { defaultValue: 'Home' })}
-            </Link>
+            <Link to="/">{t('home', { defaultValue: 'Home' })}</Link>
           </li>
           <li>
-            <Link
-              to="#services"
-              onClick={() => handleScrollToTop('services')}
-              className={activeSection === 'services' ? 'active' : ''}
-            >
-              {t('services', { defaultValue: 'Services' })}
-            </Link>
+            <Link to="/services">{t('services', { defaultValue: 'Services' })}</Link>
           </li>
           <li>
-            <Link
-              to="#projects"
-              onClick={() => handleScrollToTop('projects')}
-              className={activeSection === 'projects' ? 'active' : ''}
-            >
-              {t('projects', { defaultValue: 'Projects' })}
-            </Link>
+            <Link to="/projects">{t('projects', { defaultValue: 'Projects' })}</Link>
           </li>
           <li>
-            <Link
-              to="#about-us"
-              onClick={() => handleScrollToTop('about-us')}
-              className={activeSection === 'about-us' ? 'active' : ''}
-            >
-              {t('about_us', { defaultValue: 'About Us' })}
-            </Link>
+            <Link to="/about-us-page">{t('about_us', { defaultValue: 'About Us' })}</Link>
           </li>
         </ul>
+        
         <div className={`language-switcher ${scrolled ? 'scrolled' : ''}`}>
           <LanguageSwitcher />
         </div>
+  
         <div className="profile-photo">
           <img src={assets.profile} alt="Profile" className="profile-photo-img" />
         </div>

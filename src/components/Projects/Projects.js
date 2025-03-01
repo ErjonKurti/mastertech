@@ -75,16 +75,6 @@ const Projects = () => {
 
   return (
     <div className="projects-section">
-      <h1 className="section-title">
-        {t("projects_title", { defaultValue: "Projects" })}
-      </h1>
-      <p className="section-description">
-        {t("projects_description", {
-          defaultValue:
-            "At MasterTech, we specialize in delivering top-notch technology solutions tailored to businesses and enterprises. From IT infrastructure to smart automation and security systems, our projects are designed to enhance efficiency, security, and innovation. Below are some of the major projects we have successfully completed."
-        })}
-      </p>
-
       <div className="projects-container">
         {projects.map((project, index) => (
           <div key={index} className="project-card">

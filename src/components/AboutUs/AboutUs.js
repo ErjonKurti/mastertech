@@ -9,11 +9,6 @@ const AboutUs = () => {
 
   return (
     <div className="about-section">
-      <h1 className="section-title">{t("aboutUs.title", { defaultValue: "About Us" })}</h1>
-      <p className="section-description">
-        {t("aboutUs.description.part1", { defaultValue: "At" })} <strong>{t("aboutUs.companyName", { defaultValue: "MasterTech" })}</strong>, {t("aboutUs.description.part2", { defaultValue: "we are committed to delivering cutting-edge technology solutions that empower businesses. With expertise in IT infrastructure, security, and automation, we bring innovative and reliable solutions tailored to our clients' needs." })}
-      </p>
-
       <div className="about-content">
         <div className="about-card">
           <h2 className="about-heading">{t("aboutUs.mission.heading", { defaultValue: "Our Mission" })}</h2>

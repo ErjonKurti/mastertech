@@ -46,7 +46,7 @@
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(135deg, rgb(8, 8, 8), rgba(0, 0, 0, 0.881));
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.363);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.099);
     padding: 10px 20px;
     transition: top 0.3s ease, background-color 0.3s ease;
     z-index: 998;
@@ -55,7 +55,7 @@
 .navbar.scrolled {
     top: 0;
     background: linear-gradient(135deg, rgb(225, 225, 225), rgba(255, 255, 255, 0.881));
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.864);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.441);
 }
 
 .navbar.scrolled .navbar-menu li {
@@ -126,6 +126,10 @@
     transform: scale(1.1);
 }
 
+.menu-toggle-div{
+    display: none;
+}
+
 @media (max-width: 768px) {
     .mobile-navbar {
         display: flex;
@@ -149,10 +153,13 @@
     .top-navbar {
         display: none;
     }
+    .menu-toggle-div{
+        display: flex;
+    }
     .navbar {
         top: 0;
         background: linear-gradient(135deg, rgb(225, 225, 225), rgba(255, 255, 255, 0.881));
-        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.864);
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.284);
     }
     
     .navbar .navbar-menu li {
@@ -166,3 +173,4 @@
         top: 10px;
     }
 }
+

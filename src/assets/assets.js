@@ -15,6 +15,14 @@ import it from './it.png'
 import ja from './ja.png'
 import es from './es.png'
 import fr from './fr.png'
+import header2 from './header2.jpg'
+import header4 from './header4.jpg'
+import header3 from './header3.jpg'
+import header5 from './header5.jpg'
+import header6 from './header6.jpg'
+import cert1 from './cert1.jpg'
+import cert2 from './cert2.jpg'
+import cert3 from './cert3.jpg'
 
 const brands = [
     { name: "SONY", logo: sony },
@@ -24,7 +32,17 @@ const brands = [
     { name: "LOREX", logo: lorex },
 ];
 
+
+
 export const assets = {
+    cert1,
+    cert2,
+    cert3,
+    header2,
+    header4,
+    header3,
+    header5,
+    header6,
     moto,
     al,
     en,
