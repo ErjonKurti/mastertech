@@ -34,7 +34,7 @@
 }
 
 .top-navbar-right a:hover {
-    color: #1123ac;
+    color: #00398e;
 }
 
 .navbar {
@@ -63,7 +63,7 @@
 }
 
 .navbar.scrolled .navbar-menu li:hover {
-    color: #1123ac;
+    color: #00398e;
 }
 
 .navbar-logo img {
@@ -86,12 +86,12 @@
 }
 
 .navbar-menu li:hover {
-    color: #1123ac;
+    color: #00398e;
     font-weight: 700;
 }
 
 .navbar-menu li.active {
-    background: #1123ac;
+    background: #00398e;
     color: #fff;
     font-weight: 700;
     padding: 6px 12px;
@@ -122,7 +122,7 @@
 }
 
 .top-navbar-right a:hover {
-    color: #1123ac;
+    color: #00398e;
     transform: scale(1.1);
 }
 
@@ -167,7 +167,7 @@
     }
     
     .navbar .navbar-menu li:hover {
-        color: #1123ac;
+        color: #00398e;
     }
     .language-switcher{
         top: 10px;

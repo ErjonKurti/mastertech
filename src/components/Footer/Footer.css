@@ -23,7 +23,7 @@
 }
 
 .footer-brand h2 span {
-  color: #4169E1;
+  color: #00398e;
 }
 
 .footer-brand p {
@@ -41,7 +41,7 @@
   margin-right: 10px;
   color: #fff;
   font-size: 20px;
-  background: #4169E1;
+  background: #00398e;
   padding: 10px;
   border-radius: 6px;
   transition: 0.3s ease-in-out;
@@ -57,7 +57,7 @@
 }
 
 .footer-newsletter h3 span {
-  color: #4169E1;
+  color: #00398e;
 }
 
 .subscribe-box {
@@ -81,10 +81,10 @@
 }
 
 .subscribe-box button {
-  background: #4169E1;
+  background: #00398e;
   border: none;
   padding: 12px 20px;
-  color: #000;
+  color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -105,7 +105,7 @@
 }
 
 .contact-icon {
-  background: #4169E1;
+  background: #00398e;
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
@@ -135,6 +135,6 @@
 }
 
 .footer-bottom span {
-  color: #4169E1;
+  color: #00398e;
   font-weight: bold;
 }

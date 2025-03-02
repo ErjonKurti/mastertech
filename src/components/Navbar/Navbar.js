@@ -9,14 +9,13 @@ import MenuToggle from '../MenuToggle/MenuToggle';
 
 const Navbar = () => {
   const { t } = useTranslation();
-  const location = useLocation(); // Detects page changes
+  const location = useLocation(); 
   const [scrolled, setScrolled] = useState(false);
   const [topNavbarVisible, setTopNavbarVisible] = useState(true);
 
   useEffect(() => {
-    // Scroll to top when changing pages
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [location]); // Runs every time the route changes
+  }, [location]); 
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -38,7 +37,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Navbar */}
       {topNavbarVisible && (
         <nav className="top-navbar">
           <div className="top-navbar-left">
@@ -56,13 +54,12 @@ const Navbar = () => {
         </nav>
       )}
 
-      {/* Main Navbar */}
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className='menu-toggle-div'> 
           <MenuToggle />
         </div>
         <div className="navbar-logo">
-          <img src={assets.logo} alt="MasterTech Logo" />
+          <img src={scrolled ? assets.logo : assets.logo10} alt="MasterTech Logo" />
         </div>
         
         <ul className="navbar-menu">

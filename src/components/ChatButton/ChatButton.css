@@ -50,10 +50,10 @@
 
 .chat-icon {
     font-size: 28px;
-    color: #1c1c9cd3; 
+    color: #00398e; 
     transition: color 0.3s ease-in-out;
 }
 
 .chat-button:hover .chat-icon {
-    color: #0b0b71ee; 
+    color: #002865; 
 }

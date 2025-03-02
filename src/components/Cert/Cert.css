@@ -34,7 +34,7 @@
 }
 
 .certificates-grid img {
-    width: 220px;
+    width: 280px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
@@ -54,7 +54,7 @@
     }
 
     .certificates-grid img {
-        width: 250px;
+        width: 270px;
     }
 }
 
@@ -67,7 +67,7 @@
     }
 
     .certificates-grid img {
-        width: 270px;
+        width: 320px;
         align-items: center;
         position: relative;
         margin: auto;

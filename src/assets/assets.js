@@ -23,6 +23,14 @@ import header6 from './header6.jpg'
 import cert1 from './cert1.jpg'
 import cert2 from './cert2.jpg'
 import cert3 from './cert3.jpg'
+import alarms from './alarms.jpg'
+import audioalarms from './audioalarms.jpg'
+import accesscontrol from './accesscontrol.jpg'
+import camera from './camera.jpg'
+import electrial from './electrial.jpg'
+import itservice from './itservice.jpg'
+import smartphones from './smartphones.jpg'
+import logo10 from './logo10.png'
 
 const brands = [
     { name: "SONY", logo: sony },
@@ -35,6 +43,14 @@ const brands = [
 
 
 export const assets = {
+    smartphones,
+    logo10,
+    itservice,
+    electrial,
+    accesscontrol,
+    camera,
+    audioalarms,
+    alarms,
     cert1,
     cert2,
     cert3,

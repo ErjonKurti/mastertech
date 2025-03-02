@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import ChatButton from './components/ChatButton/ChatButton';
 import AboutUsP from './pages/AboutUs/AboutUsP';
 import ProjectsP from './pages/Projects/ProjectsP';
+import ServicesPage from './pages/ServicesPage/ServicesPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ChatButton/>
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/services' element={<ServicesPage />} />
           <Route path='/projects' element={<ProjectsP />} />
           <Route path='/about-us-page' element={<AboutUsP />} />
         </Routes>
