@@ -9,13 +9,13 @@ import MenuToggle from '../MenuToggle/MenuToggle';
 
 const Navbar = () => {
   const { t } = useTranslation();
-  const location = useLocation(); 
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [topNavbarVisible, setTopNavbarVisible] = useState(true);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [location]); 
+  }, [location]);
 
   const handleScroll = () => {
     const offset = window.scrollY;
@@ -34,6 +34,8 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  const isMobile = window.innerWidth <= 768;
 
   return (
     <>
@@ -59,7 +61,7 @@ const Navbar = () => {
           <MenuToggle />
         </div>
         <div className="navbar-logo">
-          <img src={scrolled ? assets.logo : assets.logo10} alt="MasterTech Logo" />
+          <img src={isMobile ? assets.logo : (scrolled ? assets.logo : assets.logo10)} alt="MasterTech Logo" />
         </div>
         
         <ul className="navbar-menu">
@@ -88,5 +90,6 @@ const Navbar = () => {
     </>
   );
 };
+
 
 export default Navbar;

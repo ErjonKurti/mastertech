@@ -145,7 +145,17 @@
     }
 
     .navbar-logo img {
-        height: 30px;
+        height: 30px; 
+        transition: all 0.3s ease;
+    }
+
+    .navbar-logo {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .menu-toggle-div{
+        display: flex;
     }
 }
 
@@ -173,4 +183,3 @@
         top: 10px;
     }
 }
-
