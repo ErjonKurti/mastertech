@@ -1,79 +1,88 @@
 import React from "react";
 import "./ServicesSection.css";
 import { motion } from "framer-motion";
-import { FaWrench, FaMobileAlt, FaCamera, FaBell, FaKey, FaMusic, FaLaptop } from "react-icons/fa";
+import { FaWrench, FaMobileAlt, FaCamera, FaBell, FaKey, FaLaptop } from "react-icons/fa";
 import { assets } from "../../assets/assets";
 import { useTranslation } from "react-i18next";
-
-const services = [
-  { 
-    icon: <FaWrench />, 
-    title: "electrical", 
-    desc: "expert_electrical_desc", 
-    price: "$99+", 
-    image: assets.electrial
-  },
-  { 
-    icon: <FaMobileAlt />, 
-    title: "smartphones", 
-    desc: "smartphones_desc", 
-    price: "$49+", 
-    image: assets.smartphones
-  },
-  { 
-    icon: <FaCamera />, 
-    title: "camera", 
-    desc: "camera_desc", 
-    price: "$199+", 
-    image: assets.camera
-  },
-  { 
-    icon: <FaBell />, 
-    title: "alarms", 
-    desc: "alarms_desc", 
-    price: "$149+", 
-    image: assets.alarms
-  },
-  { 
-    icon: <FaKey />, 
-    title: "access_control", 
-    desc: "access_control_desc", 
-    price: "$299+", 
-    image: assets.accesscontrol
-  },
-  { 
-    icon: <FaLaptop />, 
-    title: "it", 
-    desc: "it_desc", 
-    price: "$199+", 
-    image: assets.itservice
-  },
-];
 
 const ServicesSection = () => {
   const { t } = useTranslation();
 
   return (
     <div className="services-container">
-      <h1 className="services-title">{t("services_title2", { defaultValue: "Our Professional Services" })}</h1>
+      <h1 className="services-title">{t("services_title", { defaultValue: "Our Professional Services" })}</h1>
       <div className="services-grid">
-        {services.map((service, index) => (
-          <motion.div key={index} className="service-card">
-            <img src={service.image} alt={service.title} className="service-image" />
-            <div className="card-content">
-              <div className="icon">{service.icon}</div>
-              <h2 className="h2-card-content">{t(`service_${service.title}2`, { defaultValue: service.title })}</h2>
-              <p className="p-card-content">{t(`service_${service.desc}2`, { defaultValue: service.desc })}</p>
-              <span className="price">{service.price}</span>
-              <button className="service-btn">{t("get_service2", { defaultValue: "Get Service" })}</button>
-            </div>
-          </motion.div>
-        ))}
+        <motion.div className="service-card">
+          <img src={assets.electrial} alt="electrical" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaWrench /></div>
+            <h2 className="h2-card-content">{t("service_electrical", { defaultValue: "Electrical" })}</h2>
+            <p className="p-card-content">{t("expert_electrical_desc", { defaultValue: "Expert electrical installations & maintenance for residential and commercial spaces." })}</p>
+            <span className="price">$99+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
+
+        <motion.div className="service-card">
+          <img src={assets.smartphones} alt="smartphones" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaMobileAlt /></div>
+            <h2 className="h2-card-content">{t("service_smartphones", { defaultValue: "Smartphones" })}</h2>
+            <p className="p-card-content">{t("smartphones_desc", { defaultValue: "Repairs, unlocking, and premium accessories for all smartphone brands." })}</p>
+            <span className="price">$49+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
+
+        <motion.div className="service-card">
+          <img src={assets.camera} alt="camera" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaCamera /></div>
+            <h2 className="h2-card-content">{t("service_camera", { defaultValue: "Camera" })}</h2>
+            <p className="p-card-content">{t("camera_desc", { defaultValue: "Professional CCTV and security camera setup with remote access integration." })}</p>
+            <span className="price">$199+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
+
+        <motion.div className="service-card">
+          <img src={assets.alarms} alt="alarms" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaBell /></div>
+            <h2 className="h2-card-content">{t("service_alarms", { defaultValue: "Alarms" })}</h2>
+            <p className="p-card-content">{t("alarms_desc", { defaultValue: "Advanced home and office alarm systems with real-time monitoring." })}</p>
+            <span className="price">$149+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
+
+        <motion.div className="service-card">
+          <img src={assets.accesscontrol} alt="access_control" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaKey /></div>
+            <h2 className="h2-card-content">{t("service_access_control", { defaultValue: "Access Control" })}</h2>
+            <p className="p-card-content">{t("access_control_desc", { defaultValue: "Secure access solutions including biometrics and RFID-based systems." })}</p>
+            <span className="price">$299+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
+
+        <motion.div className="service-card">
+          <img src={assets.itservice} alt="it" className="service-image" />
+          <div className="card-content">
+            <div className="icon"><FaLaptop /></div>
+            <h2 className="h2-card-content">{t("service_it", { defaultValue: "IT" })}</h2>
+            <p className="p-card-content">{t("it_desc", { defaultValue: "Complete IT solutions including networking, support, and cybersecurity." })}</p>
+            <span className="price">$199+</span>
+            <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
+          </div>
+        </motion.div>
       </div>
+
       <div className="custom-offer">
-        <h2>{t("custom_offer2", { defaultValue: "Custom Offer" })}</h2>
-        <p>{t("custom_offer_desc2", { defaultValue: "Need a tailored solution? Contact us for a personalized offer." })}</p>
-        <button className="custom-btn">{t("request_quote2", { defaultValue: "Request a Quote" })}</button>
+        <h2>{t("custom_offer", { defaultValue: "Custom Offer" })}</h2>
+        <p>{t("custom_offer_desc", { defaultValue: "Need a tailored solution? Contact us for a personalized offer." })}</p>
+        <button className="custom-btn">{t("request_quote", { defaultValue: "Request a Quote" })}</button>
       </div>
     </div>
   );
