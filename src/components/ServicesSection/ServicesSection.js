@@ -1,7 +1,7 @@
 import React from "react";
 import "./ServicesSection.css";
 import { motion } from "framer-motion";
-import { FaWrench, FaMobileAlt, FaCamera, FaBell, FaKey, FaLaptop } from "react-icons/fa";
+import { FaWrench, FaCamera, FaBell, FaKey, FaLaptop, FaHome } from "react-icons/fa";
 import { assets } from "../../assets/assets";
 import { useTranslation } from "react-i18next";
 
@@ -24,12 +24,12 @@ const ServicesSection = () => {
         </motion.div>
 
         <motion.div className="service-card">
-          <img src={assets.smartphones} alt="smartphones" className="service-image" />
+          <img src={assets.smarthome} alt="smart_home" className="service-image" />
           <div className="card-content">
-            <div className="icon"><FaMobileAlt /></div>
-            <h2 className="h2-card-content">{t("service_smartphones", { defaultValue: "Smartphones" })}</h2>
-            <p className="p-card-content">{t("smartphones_desc", { defaultValue: "Repairs, unlocking, and premium accessories for all smartphone brands." })}</p>
-            <span className="price">$49+</span>
+            <div className="icon"><FaHome /></div>
+            <h2 className="h2-card-content">{t("service_smart_home", { defaultValue: "Smart Home Integration" })}</h2>
+            <p className="p-card-content">{t("smart_home_desc", { defaultValue: "Seamless integration of smart home devices for automation and control." })}</p>
+            <span className="price">$199+</span>
             <button className="service-btn">{t("get_service", { defaultValue: "Get Service" })}</button>
           </div>
         </motion.div>

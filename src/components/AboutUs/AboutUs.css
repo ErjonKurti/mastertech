@@ -54,3 +54,10 @@
     line-height: 1.5;
   }
   
+  .about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #00398e;
+  }

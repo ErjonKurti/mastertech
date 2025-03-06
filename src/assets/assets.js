@@ -24,13 +24,26 @@ import cert1 from './cert1.jpg'
 import cert2 from './cert2.jpg'
 import cert3 from './cert3.jpg'
 import alarms from './alarms.jpg'
-import audioalarms from './audioalarms.jpg'
 import accesscontrol from './accesscontrol.jpg'
 import camera from './camera.jpg'
 import electrial from './electrial.jpg'
 import itservice from './itservice.jpg'
-import smartphones from './smartphones.jpg'
 import logo10 from './logo10.png'
+import smarthome from './smarthome.jpg'
+import project1 from './project1.jpeg'
+import project2 from './project2.jpeg'
+import project3 from './project3.jpeg'
+import project4 from './project4.jpeg'
+import project5 from './project5.jpeg'
+import project6 from './project6.jpeg'
+import project7 from './project7.jpeg'
+import project8 from './project8.jpeg'
+import project9 from './project9.jpeg'
+import project10 from './project10.jpeg'
+import project11 from './project11.jpg'
+import project12 from './project12.jpeg'
+import project13 from './project13.jpeg'
+import project14 from './project14.jpeg'
 
 const brands = [
     { name: "SONY", logo: sony },
@@ -43,13 +56,26 @@ const brands = [
 
 
 export const assets = {
-    smartphones,
+    project1,
+    project2,
+    project3,
+    project4,
+    project5,
+    project6,
+    project7,
+    project8,
+    project9,
+    project10,
+    project11,
+    project12,
+    project13,
+    project14,
+    smarthome,
     logo10,
     itservice,
     electrial,
     accesscontrol,
     camera,
-    audioalarms,
     alarms,
     cert1,
     cert2,
