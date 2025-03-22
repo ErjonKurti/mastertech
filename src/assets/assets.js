@@ -44,6 +44,8 @@ import project11 from './project11.jpg'
 import project12 from './project12.jpeg'
 import project13 from './project13.jpeg'
 import project14 from './project14.jpeg'
+import project15 from './project15.jpg'
+import project17 from './project17.jpg'
 
 const brands = [
     { name: "SONY", logo: sony },
@@ -70,6 +72,8 @@ export const assets = {
     project12,
     project13,
     project14,
+    project15,
+    project17,
     smarthome,
     logo10,
     itservice,
