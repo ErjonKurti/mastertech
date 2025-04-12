@@ -47,17 +47,38 @@ import project14 from './project14.jpeg'
 import project15 from './project15.jpg'
 import project17 from './project17.jpg'
 
+import biticino from './biticino.jpg'
+import abb from './abb.png'
+import ezvis from './ezviz.jpg'
+import hikvision from './hikvision.jpg'
+import gevis from './gevis.png'
+import ruijie from './ruijie.jpg'
+import schneider from './schneider.png'
+import tenda from './tenda.png'
+
 const brands = [
-    { name: "SONY", logo: sony },
-    { name: "WYZE", logo: wyze },
-    { name: "BOSCH", logo: bosch },
-    { name: "ADT", logo: adt },
-    { name: "LOREX", logo: lorex },
+    { name: "BITICINO", logo: biticino },
+    { name: "ABB", logo: abb },
+    { name: "EZVIZ", logo: ezvis },
+    { name: "HIKVISION", logo: hikvision },
+    { name: "GEVIS", logo: gevis },
+    { name: "RUIJIE", logo: ruijie },
+    { name: "SCHNEIDER", logo: schneider },
+    { name: "TENDA", logo: tenda }
+
 ];
 
 
 
 export const assets = {
+    biticino,
+    abb,
+    ezvis,
+    hikvision,
+    gevis,
+    ruijie,
+    schneider,
+    tenda,  
     project1,
     project2,
     project3,

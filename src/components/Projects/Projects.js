@@ -20,9 +20,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_network_cables_modem_description', { defaultValue: 'Professional setup of network cables and modem configuration for high-speed and stable internet connectivity.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -34,9 +31,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_parking_access_control_title', { defaultValue: 'PARKING ACCESS CONTROL & MONITORING' })}</h3>
             <p className="project-description">
               {t('project_parking_access_control_description', { defaultValue: 'Integration of barrier gates, ANPR (Automatic Number Plate Recognition), and security cameras for controlled vehicle access.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Fier, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -50,9 +44,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_parking_access_control_description', { defaultValue: 'Integration of barrier gates, ANPR (Automatic Number Plate Recognition), and security cameras for controlled vehicle access.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Fier, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -64,9 +55,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_parking_access_control_title', { defaultValue: 'PARKING ACCESS CONTROL & MONITORING' })}</h3>
             <p className="project-description">
               {t('project_parking_access_control_description', { defaultValue: 'Integration of barrier gates, ANPR (Automatic Number Plate Recognition), and security cameras for controlled vehicle access.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Fier, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -80,9 +68,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_security_cam_houses_description', { defaultValue: 'Installation of advanced security cameras for houses, featuring remote access, night vision, and AI-powered motion alerts.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -94,9 +79,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_home_security_camera_title', { defaultValue: 'HOME SECURITY CAMERA SYSTEM' })}</h3>
             <p className="project-description">
               {t('project_home_security_camera_description', { defaultValue: 'Installation and configuration of high-resolution security cameras with remote access and AI-powered motion detection.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -110,9 +92,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_home_security_camera_description', { defaultValue: 'Installation and configuration of high-resolution security cameras with remote access and AI-powered motion detection.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -124,9 +103,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_office_security_camera_title', { defaultValue: 'OFFICE SECURITY CAMERA SYSTEM' })}</h3>
             <p className="project-description">
               {t('project_office_security_camera_description', { defaultValue: 'Installation and configuration of high-resolution security cameras with remote access and AI-powered motion detection.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -140,9 +116,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_office_security_camera_description', { defaultValue: 'Installation and configuration of high-resolution security cameras with remote access and AI-powered motion detection.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirana', { defaultValue: 'Tirana, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -154,9 +127,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_electrial_installation_title', { defaultValue: 'INDUSTRIAL WIRING & AUTOMATION' })}</h3>
             <p className="project-description">
               {t('project_electrial_installation_description', { defaultValue: 'Installation and maintenance of industrial wiring and automation systems, ensuring reliability and efficiency.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_durres', { defaultValue: 'Durrës, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -170,9 +140,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_industrial_wiring_description', { defaultValue: 'Installation and maintenance of industrial wiring and automation systems, ensuring reliability and efficiency.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Durrës, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -184,9 +151,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_smart_home_wiring_title', { defaultValue: 'SMART HOME WIRING & AUTOMATION' })}</h3>
             <p className="project-description">
               {t('project_smart_home_wiring_description', { defaultValue: 'Complete electrical wiring and smart home automation integration for modern homes, including remote control and energy-saving solutions.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_tirane', { defaultValue: 'Tiran, ALBANIA' })}
             </p>
           </div>
         </div>
@@ -200,9 +164,6 @@ const Projects = () => {
             <p className="project-description">
               {t('project_home_wiring_description', { defaultValue: 'Installation and maintenance of home wiring and automation systems, ensuring reliability and efficiency.' })}
             </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Fier, ALBANIA' })}
-            </p>
           </div>
         </div>
         <div className="project-card">
@@ -214,9 +175,6 @@ const Projects = () => {
             <h3 className="project-title">{t('project_industrial_wiring_title', { defaultValue: 'INDUSTRIAL WIRING & AUTOMATION' })}</h3>
             <p className="project-description">
               {t('project_industrial_wiring_description', { defaultValue: 'Installation and maintenance of industrial wiring and automation systems, ensuring reliability and efficiency.' })}
-            </p>
-            <p className="project-location">
-              <FaMapMarkerAlt className="location-icon" /> {t('project_location_fier', { defaultValue: 'Fier, ALBANIA' })}
             </p>
           </div>
         </div>
