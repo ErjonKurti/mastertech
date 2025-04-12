@@ -38,7 +38,6 @@ const Header = () => {
             />
             <div className="header-content">
                 <h1 className='header-h1'>{t('headerTitle')}</h1> 
-                <p className='header-p'>{t('headerSubtitle')}</p> 
             </div>
         </header>
     );
