@@ -200,7 +200,6 @@ const Projects = () => {
             </p>
           </div>
         </div>
-
         <div className="project-card">
           <img src={assets.project6} alt={t('project_industrial_wiring_title')} className="project-image" />
           <div className="project-info">
