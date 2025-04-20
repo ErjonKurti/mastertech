@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from 'react-i18next';
+import { useLocation } from "react-router-dom";
 import "./Projects.css";
 import { assets } from "../../assets/assets";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Projects = () => {
   const { t } = useTranslation();
+  const location = useLocation();
+  useEffect(() => {
+    const scrollToSection = () => {
+      if (location.hash) {
+        setTimeout(() => {
+          const element = document.getElementById(location.hash.substring(1));
+          if (element) {
+            const offset = 100; 
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth"
+            });
+          }
+        }, 300);
+      }
+    };
+    scrollToSection();
+  }, [location.hash]);
 
   return (
     <div className="projects-section">
       <div className="projects-container">
-        <div className="project-card">
+        <div className="project-card" id="it-projects">
           <img src={assets.project15} alt={t('project_network_cables_modem_title')} className="project-image" />
           <div className="project-info">
             <span className="project-category">
@@ -22,7 +44,8 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="project-card">
+
+        <div className="project-card" id="access-control-projects">
           <img src={assets.project7} alt={t('project_parking_access_control_title')} className="project-image" />
           <div className="project-info">
             <span className="project-category">
@@ -34,6 +57,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project12} alt={t('project_parking_access_control_title')} className="project-image" />
           <div className="project-info">
@@ -46,6 +70,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project11} alt={t('project_parking_access_control_title')} className="project-image" />
           <div className="project-info">
@@ -58,7 +83,8 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="project-card">
+
+        <div className="project-card" id="camera-projects">
           <img src={assets.project17} alt={t('project_security_cam_houses_title')} className="project-image" />
           <div className="project-info">
             <span className="project-category">
@@ -70,6 +96,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project13} alt={t('project_home_security_camera_title')} className="project-image" />
           <div className="project-info">
@@ -82,6 +109,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project14} alt={t('project_home_security_camera_title')} className="project-image" />
           <div className="project-info">
@@ -94,6 +122,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project5} alt={t('project_office_security_camera_title')} className="project-image" />
           <div className="project-info">
@@ -106,6 +135,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project1} alt={t('project_office_security_camera_title')} className="project-image" />
           <div className="project-info">
@@ -118,7 +148,8 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="project-card">
+
+        <div className="project-card" id="electrical-projects">
           <img src={assets.project6} alt={t('project_electrial_installation_title')} className="project-image" />
           <div className="project-info">
             <span className="project-category">
@@ -130,6 +161,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project2} alt={t('project_industrial_wiring_title')} className="project-image" />
           <div className="project-info">
@@ -142,7 +174,8 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="project-card">
+
+        <div className="project-card" id="smart-home-projects">
           <img src={assets.project3} alt={t('project_smart_home_wiring_title')} className="project-image" />
           <div className="project-info">
             <span className="project-category">
@@ -154,6 +187,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project4} alt={t('project_home_wiring_title')} className="project-image" />
           <div className="project-info">
@@ -166,6 +200,7 @@ const Projects = () => {
             </p>
           </div>
         </div>
+
         <div className="project-card">
           <img src={assets.project6} alt={t('project_industrial_wiring_title')} className="project-image" />
           <div className="project-info">
